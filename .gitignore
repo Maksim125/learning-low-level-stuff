@@ -1,0 +1,53 @@
+# Ignore object files and executables
+*.o
+*.out
+*.exe
+
+# Ignore dependency files
+*.d
+
+# Ignore compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Ignore compiled static libraries
+*.a
+*.lib
+
+# Ignore build directories
+/build/
+/bin/
+/obj/
+/lib/
+
+# Ignore editor and IDE specific files
+*.swp
+*~
+.vscode/
+.idea/
+.clangd/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+*.old
+
+# Ignore coverage reports
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Ignore generated documentation
+docs/
+/doc/
+
+# Ignore configuration files
+config.h
+config.mk
+
+# Ignore other system files
+.DS_Store
+Thumbs.db
